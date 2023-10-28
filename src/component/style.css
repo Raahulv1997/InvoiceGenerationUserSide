@@ -1,0 +1,40 @@
+
+:root {
+  --brand: #733dd9;
+}
+.bg-brand {
+  background-color: var(--brand);
+}
+.text-brand {
+  color: var(--brand);
+}
+.add_btn {
+  border: 1px dotted var(--brand);
+  border-radius: 6px;
+}
+.fa-plus,
+.add_btn i {
+  border: 1px solid var(--brand);
+  color: var(--brand);
+  border-radius: 2px;
+  padding: 2px;
+  font-size: 10px;
+  margin-right: 4px;
+}
+.grand_total span {
+  font-size: 22px;
+  font-weight: 300;
+}
+.universal_text {
+  font-size: 14px;
+  color: #5c5c5c;
+}
+input.number_input {
+  border: none;
+  background: transparent;
+  border-bottom: solid 1px #adadad;
+  width: 90%;
+}
+.number_input:focus-visible {
+  outline: none !important;
+}
